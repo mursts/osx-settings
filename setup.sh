@@ -25,7 +25,7 @@ defaults -currentHost write -g com.apple.keyboard.modifiermapping.${keyboardid} 
 # Command (Right) — 12
 
 # Function key is standard function key
-defaults write -g com.apple.keyboard.fnState -bool false
+defaults write -g com.apple.keyboard.fnState -bool true
 
 # Full keyboard access
 defaults write -g AppleKeyboardUIMode -int 3
